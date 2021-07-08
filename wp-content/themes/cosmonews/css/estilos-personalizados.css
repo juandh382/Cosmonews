@@ -1,0 +1,47 @@
+/* ======================= */
+/*         Menu            */
+/* ======================= */
+
+/* ================================ */
+/*              CONTENIDO            */
+
+/* ================================ */
+div.inside-header.grid-container {
+    justify-content: center;
+    flex-flow: column;
+}
+
+p.main-title {
+    font-size: 51px;
+}
+
+button.menu-toggle {
+    display:none !important; 
+}
+
+.entry-meta .posted-on,
+.entry-meta .byline
+{
+    display: none;
+}
+
+.entry-title {
+    margin-bottom: 0;
+    border-bottom: 1px solid #55555e;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+div.entry-summary p {
+    text-align: justify;
+}
+/* FOOTER */
+footer.site-info {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+div.inside-site-info.grid-container {
+    font-size: 20px;
+}
