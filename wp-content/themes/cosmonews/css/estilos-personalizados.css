@@ -1,7 +1,10 @@
 /* ======================= */
 /*         Menu            */
 /* ======================= */
-
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid;
+}
 /* ================================ */
 /*              CONTENIDO            */
 
@@ -16,12 +19,11 @@ p.main-title {
 }
 
 button.menu-toggle {
-    display:none !important; 
+    display: none !important;
 }
 
 .entry-meta .posted-on,
-.entry-meta .byline
-{
+.entry-meta .byline {
     display: none;
 }
 
@@ -32,9 +34,38 @@ button.menu-toggle {
     text-align: justify;
 }
 
+.separate-containers .inside-article,
+.separate-containers .comments-area,
+.separate-containers .page-header,
+.one-container .container,
+.separate-containers .paging-navigation,
+.inside-page-header {
+    background-color: #ffffffff;
+    border: 1px solid #55555e;
+    border-radius: 67px;
+}
+
 div.entry-summary p {
     text-align: justify;
 }
+
+#search-2 {
+    border: 1px solid #55555e;
+    border-radius: 32px;
+}
+
+.footer-widgets .widget :last-child, .sidebar .widget :last-child {
+    margin-bottom: 0;
+    border-radius: 14px;
+  
+}
+
+.widget-area .widget {
+    border-radius: 60px;
+    border: 1px solid #55555e;
+    border: 1px solid;
+}
+
 /* FOOTER */
 footer.site-info {
     background-color: black;
