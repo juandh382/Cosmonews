@@ -1,9 +1,15 @@
+body {
+    background-image: url('./img/rojo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* ======================= */
 /*         Menu            */
 /* ======================= */
 .site-header {
     background-color: #ffffff;
-    border-bottom: 1px solid;
 }
 /* ================================ */
 /*              CONTENIDO            */
@@ -29,7 +35,6 @@ button.menu-toggle {
 
 .entry-title {
     margin-bottom: 0;
-    border-bottom: 1px solid #55555e;
     padding-bottom: 20px;
     text-align: justify;
 }
@@ -41,29 +46,25 @@ button.menu-toggle {
 .separate-containers .paging-navigation,
 .inside-page-header {
     background-color: #ffffffff;
-    border: 1px solid #55555e;
-    border-radius: 67px;
+    border-radius: 20px;
 }
 
 div.entry-summary p {
     text-align: justify;
 }
 
-#search-2 {
-    border: 1px solid #55555e;
-    border-radius: 32px;
-}
-
 .footer-widgets .widget :last-child, .sidebar .widget :last-child {
     margin-bottom: 0;
-    border-radius: 14px;
+    border-radius: 10px;
   
+}
+.widget .search-form button.search-submit {
+    font-size: 15px;
+    background: #7d241b;
 }
 
 .widget-area .widget {
-    border-radius: 60px;
-    border: 1px solid #55555e;
-    border: 1px solid;
+    border-radius: 20px;
 }
 
 /* FOOTER */
